@@ -1,0 +1,15 @@
+--- zxcc-0.5.3/Z80/Makefile.am.orig	2001-08-26 00:46:05.000000000 +0200
++++ zxcc-0.5.3/Z80/Makefile.am	2003-08-23 09:43:00.359719608 +0200
+@@ -7,8 +7,8 @@
+ 	z80asm -fb -l bios.zsm
+ 
+ install-data-local:
+-	$(mkinstalldirs) $(libdir)/cpm/bin80
+-	$(mkinstalldirs) $(libdir)/cpm/lib80
+-	$(mkinstalldirs) $(libdir)/cpm/include80
+-	$(INSTALL_DATA) $(srcdir)/bios.bin $(libdir)/cpm/bin80/bios.bin
++	$(mkinstalldirs) $(DESTDIR)$(libdir)/cpm/bin80
++	$(mkinstalldirs) $(DESTDIR)$(libdir)/cpm/lib80
++	$(mkinstalldirs) $(DESTDIR)$(libdir)/cpm/include80
++	$(INSTALL_DATA) $(srcdir)/bios.bin $(DESTDIR)$(libdir)/cpm/bin80/bios.bin
+ 	

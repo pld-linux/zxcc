@@ -1,0 +1,22 @@
+--- zxcc-0.5.3/configure.in.orig	2003-04-04 23:19:25.000000000 +0200
++++ zxcc-0.5.3/configure.in	2003-08-23 09:37:26.051542176 +0200
+@@ -36,18 +36,9 @@
+ dnl CPMIO hasn't been built yet. 
+ if test x"$with_cpmio" != xno 
+ then
+-	AC_CHECK_LIB(ncurses, printw)
+-	AC_CHECK_LIB(curses,  printw)
+-	CPPFLAGS="$CPPFLAGS -I$SRCROOT/cpmio/include -DUSE_CPMIO"
+-	LDFLAGS="$LDFLAGS -L$DSTROOT/cpmio/lib"
+-	LSUBDIRS="$LSUBDIRS cpmio"
++	CPPFLAGS="$CPPFLAGS -DUSE_CPMIO"
+ fi
+ 
+-dnl CPMREDIR isn't conditional, so just add it
+-CPPFLAGS="$CPPFLAGS -I$SRCROOT/cpmredir/include"
+-LDFLAGS="$LDFLAGS -L$DSTROOT/cpmredir/lib"
+-LSUBDIRS="$LSUBDIRS cpmredir"
+-
+ dnl General preprocessor symbols
+ CPPFLAGS="$CPPFLAGS -DZXCC"
+ 
