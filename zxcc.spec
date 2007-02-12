@@ -1,5 +1,5 @@
 Summary:	Wrapper for the Hi-Tech C CP/M compiler
-Summary(pl.UTF-8):   Wrapper dla kompilatora Hi-Tech C pod CP/M
+Summary(pl.UTF-8):	Wrapper dla kompilatora Hi-Tech C pod CP/M
 Name:		zxcc
 Version:	0.5.3
 Release:	1
