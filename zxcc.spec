@@ -1,5 +1,5 @@
 Summary:	Wrapper for the Hi-Tech C CP/M compiler
-Summary(pl):	Wrapper dla kompilatora Hi-Tech C pod CP/M
+Summary(pl.UTF-8):   Wrapper dla kompilatora Hi-Tech C pod CP/M
 Name:		zxcc
 Version:	0.5.3
 Release:	1
@@ -22,10 +22,10 @@ zxcc is a wrapper for the Hi-Tech C CP/M compiler, allowing it to be
 used as a cross-compiler under UNIX. Version 0.5.x also works with the
 build tools necessary to assemble CP/M 3 (MAC, RMAC, LINK, GENCOM).
 
-%description -l pl
-zxcc to wrapper dla kompilatora Hi-Tech C dla CP/M, pozwalaj±cy na
-u¿ywanie go jako kompilatora skro¶nego pod systemami uniksowymi.
-Wersje 0.5.x dzia³aj± tak¿e z narzêdziami potrzebnymi do asemblacji
+%description -l pl.UTF-8
+zxcc to wrapper dla kompilatora Hi-Tech C dla CP/M, pozwalajÄ…cy na
+uÅ¼ywanie go jako kompilatora skroÅ›nego pod systemami uniksowymi.
+Wersje 0.5.x dziaÅ‚ajÄ… takÅ¼e z narzÄ™dziami potrzebnymi do asemblacji
 CP/M 3 (MAC, RMAC, LINK, GENCOM).
 
 %prep
