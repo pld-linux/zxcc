@@ -1,12 +1,12 @@
 Summary:	Wrapper for the Hi-Tech C CP/M compiler
 Summary(pl.UTF-8):	Wrapper dla kompilatora Hi-Tech C pod CP/M
 Name:		zxcc
-Version:	0.5.3
+Version:	0.5.6
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://www.seasip.demon.co.uk/Unix/Zxcc/%{name}-%{version}.tar.gz
-# Source0-md5:	43d94e08016b7ad117318dde12073cfe
+Source0:	http://www.seasip.info/Unix/Zxcc/%{name}-%{version}.tar.gz
+# Source0-md5:	194071d6c47c8582b497b6bd667c1c82
 Patch0:		%{name}-system-libs.patch
 Patch1:		%{name}-DESTDIR.patch
 URL:		http://www.seasip.demon.co.uk/Unix/Zxcc/
